@@ -23,8 +23,6 @@ class Hero:
             print(f"{self.name} wins!")
 
 
-
-
 if __name__ == "__main__":
     my_hero = Hero("Grace Hopper", 200)
     hero1 = Hero("Wonder Woman")
