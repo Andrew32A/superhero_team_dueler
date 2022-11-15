@@ -110,10 +110,15 @@ class Hero:
         """
         self.abilities.append(weapon)
 
+
+    
+
         
 
 
 if __name__ == "__main__":
+    # only runs code when in current file
+
     hero = Hero("wonder woman")
     weapon = Weapon("lasso of truth", 90)
     hero.add_weapon(weapon)
